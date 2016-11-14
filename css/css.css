@@ -1,0 +1,60 @@
+body {
+	background-color:#D8D8D8;
+	font-family: 'Roboto', sans-serif;
+	padding:0px;
+	margin:0px;
+}
+
+h1 {
+	font-size:21px;
+}
+
+a {
+	color:#08088A;
+}
+
+a:hover {
+	color:#06066E;
+}
+
+#header {
+	background-image:url("../images/appeltaart-banner.png");
+	width:990px;
+	height:250px;
+	margin: 0 auto;
+	margin-top:25px;
+	color:#FFFFFF;
+	border-top-left-radius: 45px;
+	border-bottom-right-radius: 45px;
+}
+
+.quote {
+	color:#FFFFFF;
+	font-size:42px;
+	padding-top:25px;
+	padding-left:25px;
+	text-shadow: 2px 2px #08088A;
+}
+
+#content {
+	width:990px;
+	height:auto;
+	margin: 0 auto;
+}
+
+.lighter-gray {
+    width: 10%;
+    padding: 5px;
+    background-color: #CCC;
+    color:303030;
+    border: none;
+    font-size:16px;
+    margin-top:25px;
+}
+
+.lighter-gray:hover {
+	background-color:#48535B;
+	color:#FFF;
+	transition: background-color .25s ease-out;
+	transition: color .25s ease-out;
+}
